@@ -6,23 +6,19 @@
  */
 int main(void)
 {
-	int i, j;
-for (i = 0; i <= 99; i++)
+	int a, c;
+for (a = 0; a <= 99; a++)
 {
-int first_digit = i / 10;
-int second_digit = i % 10;
-for (j = i; j <= 99; j++)
+for (c = a; c <= 99; c++)
 {
-int third_digit = j / 10;
-int fourth_digit = j % 10;
-if (i <= j)
+if (a != c)
 {
-putchar('0' + first_digit);
-putchar('0' + second_digit);
+putchar((a / 10) + '0');
+putchar((a % 10) + '0');
 putchar(' ');
-putchar('0' + third_digit);
-putchar('0' + fourth_digit);
-if (i != 99 || j != 99)
+putchar((c / 10) + '0');
+putchar((c % 10) + '0');
+if (a != 98 || c != 99)
 {
 putchar(',');
 putchar(' ');
