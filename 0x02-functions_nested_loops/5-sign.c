@@ -1,11 +1,10 @@
 #include "main.h"
-
 /**
+ * _abs - Entry point
  * print_sign - Prints the sign of a number
  * @c: the number to be checked
  * Return: 1 for the positive num, -1 for negative or zero for anything else
  */
-
 int print_sign(int n)
 {
 	if (n > 0)
