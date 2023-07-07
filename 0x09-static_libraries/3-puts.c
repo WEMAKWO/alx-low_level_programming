@@ -3,10 +3,11 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-
+/**
+ * _puts - prints a string
+ *@s: string
+ */
 void _puts(char *s)
 {
-    puts(s);
+	puts(s);
 }
-
-
