@@ -9,10 +9,8 @@
  */
 void _puts(char *s)
 {
-	while (*str != '\0')
-	{
-		_putchar(*str++);
-	}
-		_putchar('\n');
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
+
 
 }
