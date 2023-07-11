@@ -1,1 +1,1 @@
-0x09. C - Static libraries
+Coding in C
