@@ -1,11 +1,15 @@
 #include "main.h"
 
 /**
- * prints_triangle - prints a triangle of source
- * @size: size of the square
+ * prints_triangle - Description prints a triangle of source
+ * @size: size of the square of print_triangle
+ *Description: 'triangles'
+ *
  * Return: empty
  */
+
 void print_triangle(int size)
+
 {
 	int x, y, z;
 
