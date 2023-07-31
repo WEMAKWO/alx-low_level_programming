@@ -5,6 +5,14 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+ * struct listint_s - A singly linked list project
+ * @n: Represents an integer
+ * @next: points to the next node to be printed
+ * Description: A singly linked list node structure task
+ */
+
+
 typedef struct listint_s
 {
 	int n;
