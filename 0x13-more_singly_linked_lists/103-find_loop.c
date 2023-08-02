@@ -5,7 +5,7 @@
 
 /**
  * find_listint_loop - Finds loop in  linked list
- * @head: Linked list to search 
+ * @head: Linked list to search
  * Return: Address of the node where the loop starts, or NULL
  */
 
